@@ -1,7 +1,7 @@
 #include <btAudio.h>
 #include <Wire.h>
 #define ESP32_ADDRESS 8 // I2C address of this ESP32 device
-btAudio audio = btAudio("Luke's ESP32"); //set the name of the ESP32 device
+btAudio audio = btAudio(""); //set the name of the ESP32 device
 
 void setup() {
   Serial.begin(9600); //Initialize Serial on 9600 baud
